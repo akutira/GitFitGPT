@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE1AA102CADC2FE00AA6FB4 /* GymFitGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA0F2CADC2FE00AA6FB4 /* GymFitGPTApp.swift */; };
+		3AE1AA122CADC2FE00AA6FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA112CADC2FE00AA6FB4 /* ContentView.swift */; };
+		3AE1AA142CADC30000AA6FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1AA132CADC30000AA6FB4 /* Assets.xcassets */; };
+		3AE1AA172CADC30000AA6FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1AA162CADC30000AA6FB4 /* Preview Assets.xcassets */; };
+		3AE1AA212CADC30000AA6FB4 /* GymFitGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA202CADC30000AA6FB4 /* GymFitGPTTests.swift */; };
+		3AE1AA2B2CADC30000AA6FB4 /* GymFitGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA2A2CADC30000AA6FB4 /* GymFitGPTUITests.swift */; };
+		3AE1AA2D2CADC30000AA6FB4 /* GymFitGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA2C2CADC30000AA6FB4 /* GymFitGPTUITestsLaunchTests.swift */; };
+		3AE1AA412CB043A700AA6FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1AA3B2CB043A600AA6FB4 /* Preview Assets.xcassets */; };
+		3AE1AA422CB043A700AA6FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1AA3D2CB043A600AA6FB4 /* Assets.xcassets */; };
+		3AE1AA432CB043A700AA6FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA3E2CB043A600AA6FB4 /* ContentView.swift */; };
+		3AE1AA442CB043A700AA6FB4 /* GymFitGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA3F2CB043A600AA6FB4 /* GymFitGPTApp.swift */; };
+		3AE1AA462CB0442000AA6FB4 /* GPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1AA452CB0442000AA6FB4 /* GPTService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE1AA1D2CADC30000AA6FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE1AA042CADC2FE00AA6FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE1AA0B2CADC2FE00AA6FB4;
+			remoteInfo = GymFitGPT;
+		};
+		3AE1AA272CADC30000AA6FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE1AA042CADC2FE00AA6FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE1AA0B2CADC2FE00AA6FB4;
+			remoteInfo = GymFitGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AE1AA0C2CADC2FE00AA6FB4 /* GymFitGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymFitGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE1AA0F2CADC2FE00AA6FB4 /* GymFitGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFitGPTApp.swift; sourceTree = "<group>"; };
+		3AE1AA112CADC2FE00AA6FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AE1AA132CADC30000AA6FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE1AA162CADC30000AA6FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AE1AA1C2CADC30000AA6FB4 /* GymFitGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymFitGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE1AA202CADC30000AA6FB4 /* GymFitGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFitGPTTests.swift; sourceTree = "<group>"; };
+		3AE1AA262CADC30000AA6FB4 /* GymFitGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymFitGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE1AA2A2CADC30000AA6FB4 /* GymFitGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFitGPTUITests.swift; sourceTree = "<group>"; };
+		3AE1AA2C2CADC30000AA6FB4 /* GymFitGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFitGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AE1AA3B2CB043A600AA6FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AE1AA3D2CB043A600AA6FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE1AA3E2CB043A600AA6FB4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AE1AA3F2CB043A600AA6FB4 /* GymFitGPTApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymFitGPTApp.swift; sourceTree = "<group>"; };
+		3AE1AA452CB0442000AA6FB4 /* GPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE1AA092CADC2FE00AA6FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA192CADC30000AA6FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA232CADC30000AA6FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE1AA032CADC2FE00AA6FB4 = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA0E2CADC2FE00AA6FB4 /* GymFitGPT */,
+				3AE1AA1F2CADC30000AA6FB4 /* GymFitGPTTests */,
+				3AE1AA292CADC30000AA6FB4 /* GymFitGPTUITests */,
+				3AE1AA0D2CADC2FE00AA6FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE1AA0D2CADC2FE00AA6FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA0C2CADC2FE00AA6FB4 /* GymFitGPT.app */,
+				3AE1AA1C2CADC30000AA6FB4 /* GymFitGPTTests.xctest */,
+				3AE1AA262CADC30000AA6FB4 /* GymFitGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE1AA0E2CADC2FE00AA6FB4 /* GymFitGPT */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA0F2CADC2FE00AA6FB4 /* GymFitGPTApp.swift */,
+				3AE1AA452CB0442000AA6FB4 /* GPTService.swift */,
+				3AE1AA112CADC2FE00AA6FB4 /* ContentView.swift */,
+				3AE1AA402CB043A600AA6FB4 /* GymFitGPT */,
+				3AE1AA132CADC30000AA6FB4 /* Assets.xcassets */,
+				3AE1AA152CADC30000AA6FB4 /* Preview Content */,
+			);
+			path = GymFitGPT;
+			sourceTree = "<group>";
+		};
+		3AE1AA152CADC30000AA6FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA162CADC30000AA6FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AE1AA1F2CADC30000AA6FB4 /* GymFitGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA202CADC30000AA6FB4 /* GymFitGPTTests.swift */,
+			);
+			path = GymFitGPTTests;
+			sourceTree = "<group>";
+		};
+		3AE1AA292CADC30000AA6FB4 /* GymFitGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA2A2CADC30000AA6FB4 /* GymFitGPTUITests.swift */,
+				3AE1AA2C2CADC30000AA6FB4 /* GymFitGPTUITestsLaunchTests.swift */,
+			);
+			path = GymFitGPTUITests;
+			sourceTree = "<group>";
+		};
+		3AE1AA3C2CB043A600AA6FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA3B2CB043A600AA6FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AE1AA402CB043A600AA6FB4 /* GymFitGPT */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1AA3C2CB043A600AA6FB4 /* Preview Content */,
+				3AE1AA3D2CB043A600AA6FB4 /* Assets.xcassets */,
+				3AE1AA3E2CB043A600AA6FB4 /* ContentView.swift */,
+				3AE1AA3F2CB043A600AA6FB4 /* GymFitGPTApp.swift */,
+			);
+			name = GymFitGPT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE1AA0B2CADC2FE00AA6FB4 /* GymFitGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE1AA302CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPT" */;
+			buildPhases = (
+				3AE1AA082CADC2FE00AA6FB4 /* Sources */,
+				3AE1AA092CADC2FE00AA6FB4 /* Frameworks */,
+				3AE1AA0A2CADC2FE00AA6FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymFitGPT;
+			productName = GymFitGPT;
+			productReference = 3AE1AA0C2CADC2FE00AA6FB4 /* GymFitGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE1AA1B2CADC30000AA6FB4 /* GymFitGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE1AA332CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPTTests" */;
+			buildPhases = (
+				3AE1AA182CADC30000AA6FB4 /* Sources */,
+				3AE1AA192CADC30000AA6FB4 /* Frameworks */,
+				3AE1AA1A2CADC30000AA6FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE1AA1E2CADC30000AA6FB4 /* PBXTargetDependency */,
+			);
+			name = GymFitGPTTests;
+			productName = GymFitGPTTests;
+			productReference = 3AE1AA1C2CADC30000AA6FB4 /* GymFitGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AE1AA252CADC30000AA6FB4 /* GymFitGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE1AA362CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPTUITests" */;
+			buildPhases = (
+				3AE1AA222CADC30000AA6FB4 /* Sources */,
+				3AE1AA232CADC30000AA6FB4 /* Frameworks */,
+				3AE1AA242CADC30000AA6FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE1AA282CADC30000AA6FB4 /* PBXTargetDependency */,
+			);
+			name = GymFitGPTUITests;
+			productName = GymFitGPTUITests;
+			productReference = 3AE1AA262CADC30000AA6FB4 /* GymFitGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE1AA042CADC2FE00AA6FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3AE1AA0B2CADC2FE00AA6FB4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3AE1AA1B2CADC30000AA6FB4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3AE1AA0B2CADC2FE00AA6FB4;
+					};
+					3AE1AA252CADC30000AA6FB4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3AE1AA0B2CADC2FE00AA6FB4;
+					};
+				};
+			};
+			buildConfigurationList = 3AE1AA072CADC2FE00AA6FB4 /* Build configuration list for PBXProject "GymFitGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE1AA032CADC2FE00AA6FB4;
+			packageReferences = (
+				3AE1AA392CAF0F5500AA6FB4 /* XCLocalSwiftPackageReference "LLM.swift-main" */,
+				3AE1AA3A2CAF10B700AA6FB4 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = 3AE1AA0D2CADC2FE00AA6FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE1AA0B2CADC2FE00AA6FB4 /* GymFitGPT */,
+				3AE1AA1B2CADC30000AA6FB4 /* GymFitGPTTests */,
+				3AE1AA252CADC30000AA6FB4 /* GymFitGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE1AA0A2CADC2FE00AA6FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE1AA172CADC30000AA6FB4 /* Preview Assets.xcassets in Resources */,
+				3AE1AA412CB043A700AA6FB4 /* Preview Assets.xcassets in Resources */,
+				3AE1AA422CB043A700AA6FB4 /* Assets.xcassets in Resources */,
+				3AE1AA142CADC30000AA6FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA1A2CADC30000AA6FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA242CADC30000AA6FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE1AA082CADC2FE00AA6FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE1AA122CADC2FE00AA6FB4 /* ContentView.swift in Sources */,
+				3AE1AA442CB043A700AA6FB4 /* GymFitGPTApp.swift in Sources */,
+				3AE1AA462CB0442000AA6FB4 /* GPTService.swift in Sources */,
+				3AE1AA102CADC2FE00AA6FB4 /* GymFitGPTApp.swift in Sources */,
+				3AE1AA432CB043A700AA6FB4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA182CADC30000AA6FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE1AA212CADC30000AA6FB4 /* GymFitGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1AA222CADC30000AA6FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE1AA2D2CADC30000AA6FB4 /* GymFitGPTUITestsLaunchTests.swift in Sources */,
+				3AE1AA2B2CADC30000AA6FB4 /* GymFitGPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE1AA1E2CADC30000AA6FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE1AA0B2CADC2FE00AA6FB4 /* GymFitGPT */;
+			targetProxy = 3AE1AA1D2CADC30000AA6FB4 /* PBXContainerItemProxy */;
+		};
+		3AE1AA282CADC30000AA6FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE1AA0B2CADC2FE00AA6FB4 /* GymFitGPT */;
+			targetProxy = 3AE1AA272CADC30000AA6FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AE1AA2E2CADC30000AA6FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE1AA2F2CADC30000AA6FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE1AA312CADC30000AA6FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymFitGPT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE1AA322CADC30000AA6FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymFitGPT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AE1AA342CADC30000AA6FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymFitGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymFitGPT";
+			};
+			name = Debug;
+		};
+		3AE1AA352CADC30000AA6FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymFitGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymFitGPT";
+			};
+			name = Release;
+		};
+		3AE1AA372CADC30000AA6FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymFitGPT;
+			};
+			name = Debug;
+		};
+		3AE1AA382CADC30000AA6FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akutiraPlan.GymFitGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymFitGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE1AA072CADC2FE00AA6FB4 /* Build configuration list for PBXProject "GymFitGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE1AA2E2CADC30000AA6FB4 /* Debug */,
+				3AE1AA2F2CADC30000AA6FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE1AA302CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE1AA312CADC30000AA6FB4 /* Debug */,
+				3AE1AA322CADC30000AA6FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE1AA332CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE1AA342CADC30000AA6FB4 /* Debug */,
+				3AE1AA352CADC30000AA6FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE1AA362CADC30000AA6FB4 /* Build configuration list for PBXNativeTarget "GymFitGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE1AA372CADC30000AA6FB4 /* Debug */,
+				3AE1AA382CADC30000AA6FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3AE1AA392CAF0F5500AA6FB4 /* XCLocalSwiftPackageReference "LLM.swift-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "LLM.swift-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AE1AA3A2CAF10B700AA6FB4 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 3AE1AA042CADC2FE00AA6FB4 /* Project object */;
+}
